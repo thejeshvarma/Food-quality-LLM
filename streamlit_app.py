@@ -5,7 +5,7 @@ from PIL import Image
 import io
 
 # Set Gemini API Key
-GOOGLE_API_KEY = "AIzaSyD1XItbxOXLsvsK9RD-v_gLGwroSC2C43s"
+GOOGLE_API_KEY = "/"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Function to encode the image to base64
